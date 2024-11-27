@@ -1,0 +1,55 @@
+body {font-family:cursive;}
+* {box-sizing: border-box;}
+body
+{
+    background-image: url("img/loginback.jpg");
+  background-size: cover;
+  background-image: no-repeat;
+
+  
+}
+.login-container {
+    display: flex; /* use flexbox layout */
+    flex-direction: column; /* arrange children vertically */
+    align-items: center; /* center children horizontally */
+    width: 30%; /* set the width of the container */
+    margin: 0 auto; /* center the container horizontally */
+    padding: 20px; /* add some padding to the container */
+    border: 1px solid #ccc; /* add a border to the container */
+    border-radius: 5px; /* add rounded corners to the container */
+    color: blue;
+}
+
+/* Define the styling for the username and password fields */
+.login-container input[type="text"],
+.login-container input[type="password"],[type="number"],[type="EMAIL"] {
+    width: 100%; /* make the fields take up the full width of the container */
+    padding: 12px 20px; /* add some padding to the fields */
+    margin: 8px 0; /* add some margin to the fields */
+    box-sizing: border-box; /* include padding and border in the total width of the field */
+    border: 1px solid #ccc; /* add a border to the fields */
+    border-radius: 4px; /* add rounded corners to the fields */
+}
+
+/* Add some styling to the submit button */
+.login-container input[type="submit"] {
+    width: 100%; /* make the button take up the full width of the container */
+    background-color:blue; /* change the background color of the button */
+    color: white; /* change the text color of the button */
+    padding: 14px 20px; /* add some padding to the button */
+    margin: 8px 0; /* add some margin to the button */
+    border-radius: 8px;
+    border-color: blue; /* remove the border from the button */
+    cursor: pointer; /* change the cursor to a pointer when hovering over the button */
+}
+button{
+    width:fit-content; /* make the button take up the full width of the container */
+    background-color:blue; /* change the background color of the button */
+    color: white; /* change the text color of the button */
+    padding: 14px 20px; /* add some padding to the button */
+    margin: 8px 0; /* add some margin to the button */
+    border-radius: 8px;/* remove the border from the button */
+    border-color:blue;
+    cursor: pointer; /* change the cursor to a pointer when hovering over the button */
+    float:right;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="adminlogin.css">
+<style>
+    button{
+        float:center;
+    }
+</style>
+</head>
+<body style="background-image:url(img/loginback.jpg);">
+
+  <form class="login-container" action="create.php" method="post" >
+  
+    <h2>Create account</h2>
+    <label for="uname" ><b> NEW USER:    </b></label>
+    <input type="text" placeholder="Enter name" name="uname" required >
+    <label for="uname" ><b> ENTER EMAIL:</b></label>
+    <input type="EMAIL" placeholder="Enter email" name="email" required width="200px">
+    <label for="uname" ><b> PASSWORD:    </b></label>
+    <input type="password" placeholder="Enter password" name="psw" required >
+    <label for="uname" ><b>CONFIRM PASSWORD:</b></label>
+    <input type="password" placeholder="Enter password" name="conpsw" required >
+    <input type="submit" value="create">
+
+</form>
+ <h5 style="text-align:center; color:black;"> already have an acoount ?<a href="login.html" >login</a></h5>
+
+  
+
+
+</body>
+</html>
